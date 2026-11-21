@@ -1062,3 +1062,84 @@ h3 {
     animation: none;
   }
 }
+
+/* ---------- About / SEO section (static, in index.html) ---------- */
+
+.seo {
+  border-top: 1px solid var(--line);
+  padding: 56px 24px 72px;
+}
+
+.seo-inner {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.seo h1 {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 0.98;
+  max-width: 22ch;
+}
+
+.seo h2 {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 36px 0 10px;
+}
+
+.seo p,
+.seo li,
+.seo dd {
+  color: var(--muted);
+  max-width: 68ch;
+}
+
+.seo p {
+  margin: 0;
+}
+
+.seo .seo-lead {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.seo strong,
+.seo dt {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.seo-modes {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.seo-faq {
+  margin: 0;
+}
+
+.seo-faq dt {
+  margin-top: 16px;
+}
+
+.seo-faq dd {
+  margin: 4px 0 0;
+}
+
+.seo-noscript {
+  padding: 24px;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .seo {
+    padding: 40px 16px 56px;
+  }
+}

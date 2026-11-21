@@ -1,0 +1,15 @@
+{
+  "name": "Aim Range – Free Online Aim Trainer",
+  "short_name": "Aim Range",
+  "description": "Free browser aim trainer for FPS players: flicking, tracking, precision and reaction time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16233f",
+  "theme_color": "#16233f",
+  "categories": ["games", "sports"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

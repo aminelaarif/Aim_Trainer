@@ -3,13 +3,193 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aim Range</title>
+
+    <!-- Primary SEO -->
+    <title>Aim Range – Free Online Aim Trainer for FPS Games | Aim Training in Your Browser</title>
+    <meta
+      name="description"
+      content="Free online aim trainer for Valorant, CS2, Apex and Overwatch players. Practise flicking, tracking, precision and reaction time in your browser. No download, no sign-up."
+    />
+    <meta
+      name="keywords"
+      content="aim trainer, aim training, online aim trainer, free aim trainer, competitive aim training, fps aim practice, aim practice, valorant aim trainer, cs2 aim trainer, flick training, tracking practice, reaction time test, gridshot, sensitivity calculator, cm/360, eDPI"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Aim Range" />
+    <link rel="canonical" href="%SITE_URL%/" />
+    <meta name="theme-color" content="#16233f" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Icons and install -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph (Discord, Facebook, WhatsApp, LinkedIn previews) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aim Range" />
+    <meta property="og:title" content="Aim Range – Free Online Aim Trainer" />
+    <meta
+      property="og:description"
+      content="Competitive aim training in your browser: Gridshot, Flick, Precision, Tracking and Reaction modes, a 5-minute warm-up and a cm/360 sensitivity calculator."
+    />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%SITE_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Aim Range – free online aim trainer" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aim Range – Free Online Aim Trainer" />
+    <meta
+      name="twitter:description"
+      content="Train flicking, tracking, precision and reaction time in your browser. Free, no download."
+    />
+    <meta name="twitter:image" content="%SITE_URL%/og-image.png" />
+
+    <!-- Structured data: tells Google this is a free browser game / web app -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "%SITE_URL%/#website",
+            "url": "%SITE_URL%/",
+            "name": "Aim Range",
+            "description": "Free online aim trainer for FPS players.",
+            "inLanguage": "en"
+          },
+          {
+            "@type": ["WebApplication", "VideoGame"],
+            "@id": "%SITE_URL%/#app",
+            "name": "Aim Range",
+            "alternateName": "Aim Range Aim Trainer",
+            "url": "%SITE_URL%/",
+            "image": "%SITE_URL%/og-image.png",
+            "description": "A free browser-based aim trainer for competitive FPS players. Practise flicking, tracking, micro-adjustment, target switching and reaction time, track personal bests, and convert your sensitivity to cm/360.",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "Aim trainer",
+            "genre": ["Aim training", "Shooter", "Esports training"],
+            "gamePlatform": "Web browser",
+            "operatingSystem": "Any (runs in a web browser)",
+            "playMode": "SinglePlayer",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "featureList": [
+              "Gridshot mode for speed and target switching",
+              "Flick mode for flick shots",
+              "Precision mode for micro-adjustment",
+              "Tracking mode for smooth tracking",
+              "Reaction time test",
+              "Five-minute aim warm-up routine",
+              "Personal bests and score history",
+              "Custom crosshair and target size",
+              "cm/360 and eDPI sensitivity calculator for Valorant, CS2, Apex Legends and Overwatch 2"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "%SITE_URL%/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is Aim Range free?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Aim Range is completely free, runs in your browser and needs no download or account. Your scores are saved on your device." }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an online aim trainer help in Valorant or CS2?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Aim is built from separate skills such as flicking, tracking, micro-adjustment and reaction time. Practising them on their own makes them easier to use in game. Aim Range uses your normal desktop cursor, so it trains hand–eye coordination, clicking and target reading rather than your exact in-game sensitivity." }
+              },
+              {
+                "@type": "Question",
+                "name": "How long should I practise aim each day?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Around fifteen focused minutes a day works better than long sessions once a week. Start with the five-minute warm-up and stop when your hand gets tired." }
+              },
+              {
+                "@type": "Question",
+                "name": "What accuracy should I aim for?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Aim for 85–90% accuracy. Higher than that means you can go faster; lower means you should slow down." }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I work out my cm/360?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Open the Learn tab and enter your game, mouse DPI and in-game sensitivity. The calculator shows how many centimetres of mouse movement a full 360° turn takes, plus your eDPI." }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Familjen+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
+
+    <noscript>
+      <p class="seo-noscript">Aim Range is a free online aim trainer. Turn on JavaScript to start training.</p>
+    </noscript>
+
+    <!-- Crawlable description of the trainer. Lives outside #root so search engines read it without running JavaScript. -->
+    <section class="seo" aria-labelledby="seo-title">
+      <div class="seo-inner">
+        <h1 id="seo-title">Free online aim trainer for competitive FPS players</h1>
+        <p class="seo-lead">
+          Aim Range is a free aim trainer that runs in your browser. No download, no account: open the
+          page and start aim training for Valorant, Counter-Strike 2, Apex Legends, Overwatch 2 and any
+          other shooter. Each mode isolates one aiming skill, so you can see what is holding you back
+          and practise it on purpose.
+        </p>
+
+        <h2>Aim training modes</h2>
+        <ul class="seo-modes">
+          <li><strong>Gridshot</strong> – speed and target switching. Three targets on screen at once; clear them as fast as you can without spraying clicks.</li>
+          <li><strong>Flick</strong> – flick shots. One target at a time, always far from your last click. Snap to it in one motion.</li>
+          <li><strong>Precision</strong> – micro-adjustment. Targets shrink until they vanish, so you have to stop cleanly and click.</li>
+          <li><strong>Tracking</strong> – smooth tracking. Keep your crosshair on a target that keeps changing direction.</li>
+          <li><strong>Reaction</strong> – a reaction time test. Wait for the target, then click the instant it appears.</li>
+        </ul>
+
+        <h2>Built for competitive aim practice</h2>
+        <p>
+          Play 30 or 60 second rounds with small, medium or large targets and your choice of crosshair.
+          Personal bests are tracked separately for every mode, target size and round length, so your
+          scores stay comparable. The results screen shows your accuracy and whether you overshoot or
+          stop short on flicks. A five-minute warm-up runs Reaction, Flick, Gridshot, Tracking and
+          Precision in order before you queue for ranked.
+        </p>
+
+        <h2>Sensitivity calculator: cm/360 and eDPI</h2>
+        <p>
+          The Learn tab includes a sensitivity converter for Valorant, CS2, Apex Legends and Overwatch 2.
+          Enter your mouse DPI and in-game sensitivity to see your cm/360 and eDPI, plus tips on posture,
+          grip, flicking, tracking and how to balance speed against accuracy.
+        </p>
+
+        <h2>Frequently asked questions</h2>
+        <dl class="seo-faq">
+          <dt>Is Aim Range free?</dt>
+          <dd>Yes. It is completely free, runs in your browser and needs no download or account. Your scores are saved on your device.</dd>
+          <dt>Does an online aim trainer help in Valorant or CS2?</dt>
+          <dd>Yes. Aim is built from separate skills such as flicking, tracking, micro-adjustment and reaction time, and practising them on their own makes them easier to use in game. Aim Range uses your normal desktop cursor, so it trains hand–eye coordination, clicking and target reading rather than your exact in-game sensitivity.</dd>
+          <dt>How long should I practise aim each day?</dt>
+          <dd>Around fifteen focused minutes a day works better than long sessions once a week. Start with the five-minute warm-up and stop when your hand gets tired.</dd>
+          <dt>What accuracy should I aim for?</dt>
+          <dd>Aim for 85–90% accuracy. Higher than that means you can go faster; lower means you should slow down.</dd>
+          <dt>How do I work out my cm/360?</dt>
+          <dd>Open the Learn tab and enter your game, mouse DPI and in-game sensitivity. The calculator shows how many centimetres of mouse movement a full 360° turn takes, plus your eDPI.</dd>
+        </dl>
+      </div>
+    </section>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
