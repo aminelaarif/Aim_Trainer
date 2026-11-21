@@ -137,14 +137,14 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1 className="brand">
+        <div className="brand">
           <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
             <circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" strokeWidth="2.5" />
             <circle cx="16" cy="16" r="3.5" fill="var(--coral)" />
             <path d="M16 1v7M16 24v7M1 16h7M24 16h7" stroke="currentColor" strokeWidth="2.5" />
           </svg>
           Aim Range
-        </h1>
+        </div>
         <nav className="tabs" aria-label="Sections">
           <button className={view === 'play' ? 'on' : ''} onClick={() => setView('play')}>
             Train

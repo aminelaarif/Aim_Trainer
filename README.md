@@ -1,16 +1,37 @@
-# React + Vite
+# Aim Range – Free Online Aim Trainer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aim Range is a free, browser-based **aim trainer** for competitive FPS players. Practise flicking, tracking,
+precision and reaction time for Valorant, Counter-Strike 2, Apex Legends, Overwatch 2 and other shooters —
+no download, no account.
 
-Currently, two official plugins are available:
+## Modes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Mode | Trains |
+| --- | --- |
+| Gridshot | Speed and target switching |
+| Flick | Flick shots |
+| Precision | Micro-adjustment |
+| Tracking | Smooth tracking |
+| Reaction | Reaction time |
 
-## React Compiler
+Also included: a five-minute warm-up routine, personal bests per mode / target size / round length,
+custom crosshairs, and a cm/360 + eDPI sensitivity calculator.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run locally
 
-## Expanding the Oxlint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Deploy (Netlify)
+
+`netlify.toml` already sets the build (`npm run build`, publish `dist`). Netlify passes the site's address
+in the `URL` variable, which the build uses for the canonical link, social preview tags, `robots.txt` and
+`sitemap.xml`. If you build locally and upload `dist` by hand, run `SITE_URL=https://your-site.netlify.app npm run build`.
+
+## SEO checklist after deploying
+
+1. Add the site to [Google Search Console](https://search.google.com/search-console) and submit `/sitemap.xml`.
+2. Check the structured data with the [Rich Results Test](https://search.google.com/test/rich-results).
+3. Share the link (Reddit, Discord, your GitHub profile) — links from other sites are what move rankings.
